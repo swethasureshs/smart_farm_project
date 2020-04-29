@@ -1,0 +1,19 @@
+use jp;
+create table details(username varchar(30),password varchar(30));
+desc details;
+select * from details;
+create table shop(id int,name varchar(30),qty int);
+insert into shop values(1,"PBW-343",50);
+insert into shop values(2,"HPW-42",30);
+insert into shop values(3,"MDU-3",35);
+insert into shop values(4,"Ganga-5",55);
+insert into shop values(5,"Moong beans",65);
+insert into shop values(6,"JBO-2003H(Ira)",25);
+insert into shop values(7,"Masur",45);
+insert into shop values(8,"AAUOJ-1(Tarun)",33);
+insert into shop values(9,"Urd",15);
+insert into shop values(10,"Urea",12);
+insert into shop values(11,"NPK",10);
+insert into shop values(12,"MAP",13);
+select * from shop;
+
